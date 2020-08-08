@@ -39,7 +39,7 @@ npm run dev
 ```
 
 Or just access this link:
-https://gem-resisted-hallway.glitch.me/
+https://rigorous-curvy-ravioli.glitch.me
 
 
 ## FrontEnd 
@@ -68,6 +68,10 @@ Wait for dependencies to be installed. After that, run the next command:
 ```
 npm start
 ```
+
+Or just access this link to view a deploy:
+https://cobalt-alabaster-colossus.glitch.me/
+
 ## Profile
 As a developer, I have experience with the next technologies listed:
 - Php - 3+ years (CodeIgniter, Vanila)
@@ -117,6 +121,9 @@ Una vez instaladas las dependencias corre el siguiente comando para levantar el 
 npm run dev
 ```
 
+O solo accede a este enlace:
+https://rigorous-curvy-ravioli.glitch.me
+
 ## FrontEnd 
 Basado en los componentes de Material-ui.
 Tiene diferentes componentes en react, que son renderizados dependiendo de la ruta(/, /profile, /search)
@@ -143,3 +150,17 @@ Espera a que se instalen. Luego corres el siguiente comando para correr el front
 ```
 npm start
 ```
+
+O solo accede a este enlace para ver un deploy:
+https://cobalt-alabaster-colossus.glitch.me/
+
+## Perfil
+Como desarrollador tengo experiencia con las siguientes tecnologias:
+- Php - 3+ años (CodeIgniter, Vanila)
+- JavaScript Vanila - 2+ años
+- ReactJS - 3-6 Meses (Only on personal projects)
+- Python - 6+ Meses (Backend with Django on VectorFair)
+- NodeJS - 3-6 Meses (Only on personal projects)
+- SQL (MySQL, PostgreSQL) 3+ años
+- NoSQL (MongoDB) - 3-6 Meses
+- Docker - 3-6 Meses
