@@ -13,6 +13,10 @@ It has routes, validators and controllers (middlewares) to manage all kind of re
 Validates if request is valid (Strings, numbers and required fields).
 Calculates the coordinates where app must search (both latitude and longitude) and request it from the other App.
 
+### API Documentation
+This app has the next endpoints:
+- /api/searchRoutes?{x=number}&{y=number} (foodTruck search)
+
 ### Installation
 
 #### Requirements
@@ -34,9 +38,14 @@ Wait for dependencies to be installed. Then run development or local server with
 npm run dev
 ```
 
+Or just access this link:
+https://gem-resisted-hallway.glitch.me/
+
+
 ## FrontEnd 
 Based on different Material-ui components.
-It has different React components that are rendered with routes (/, /profile, /search)
+It has different React components that are rendered with routes (/, /profile, /search). 
+**Some of this components are based on Material-UI examples and modified to reflect my version.**
 Some components are stateless and others are stateful, depending on the responsability that component has.
 Every component has its unique CSS.
 Different files for utils and API request 
@@ -59,6 +68,16 @@ Wait for dependencies to be installed. After that, run the next command:
 ```
 npm start
 ```
+## Profile
+As a developer, I have experience with the next technologies listed:
+- Php - 3+ years (CodeIgniter, Vanila)
+- JavaScript Vanila - 2+ years
+- ReactJS - 3-6 Months (Only on personal projects)
+- Python - 6+ Months (Backend with Django on VectorFair)
+- NodeJS - 3-6 Months (Only on personal projects)
+- SQL (MySQL, PostgreSQL) 3+ years
+- NoSQL (MongoDB) - 3-6 Months
+- Docker - 3-6 Months
 
 # Español
 Esta aplicación buscara por carros de comida dentro de un radio de 5 km cercano a la ubicación introducida.
@@ -72,6 +91,10 @@ He trabajado más en el Backend ya que estoy aplicando a un rol de Backend. Si c
 Contiene rutas, validadores y controladores (middlewares) para manejar todos los request en el API.(Al momento, solo existe 1 endpoint).
 Valida si el request tiene valores validos(Strings, numeros y si tiene los campos requeridos).
 Calcula las coordenadas donde la aplicación debe realizar los filtros (tanto longitud como latitud) y solicita la información al aplicativo que tiene los datos.
+
+### API Documentation
+La aplicacion tiene los siguientes endpoints:
+- /api/searchRoutes?{x=number}&{y=number} (busqueda de camiones)
 
 ### Installation
 
@@ -97,6 +120,7 @@ npm run dev
 ## FrontEnd 
 Basado en los componentes de Material-ui.
 Tiene diferentes componentes en react, que son renderizados dependiendo de la ruta(/, /profile, /search)
+**Algunos de estos componentes son basados en ejemplos de Material-UI y fueron modificados para mostrar mi version.**
 Algunos componentes manejan estados, otros no. Esto depende de la responsabilidad del mismo componente.
 Cada componente tiene su estilo CSS.
 Se crearion otros archivos para los utils y los request al API
